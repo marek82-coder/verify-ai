@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Verify-AI — Turning AI Risk into AI Value</title>
+  <meta name="description" content="We transform AI risk into AI opportunity by providing evidence for safer and more scalable AI adoption." />
+  <link rel="preconnect" href="https://fonts.bunny.net" />
+  <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .btn { @apply inline-flex items-center justify-center rounded-2xl px-5 py-3 text-sm font-semibold transition; }
+    .btn-primary { @apply bg-cyan-400 text-black hover:bg-cyan-300; }
+    .btn-ghost { @apply ring-1 ring-black/10 hover:bg-black/5; }
+    .nav-link { @apply text-sm text-black/70 hover:text-black font-medium; }
+    .shadow-soft { box-shadow: 0 6px 30px rgba(0,0,0,.08); }
+    .glass { backdrop-filter: saturate(160%) blur(8px); background: rgba(255,255,255,.8); }
+  </style>
+</head>
+<body class="bg-white text-black antialiased">
+  <a href="#main" class="sr-only focus:not-sr-only focus:ring-2 focus:ring-cyan-400 absolute left-4 top-4 z-[1000] px-3 py-2 rounded">Skip to content</a>
+  <header id="site-header" class="sticky top-0 z-50 border-b border-black/5 bg-white/80 glass">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-16 items-center justify-between">
+        <a href="/" class="flex items-center gap-2">
+          <img src="assets/logo.png" alt="Verify-AI" class="h-8 w-auto" />
+        </a>
+        <nav aria-label="Primary" class="hidden md:flex items-center gap-7">
+          <a class="nav-link" href="#approach">Approach</a>
+          <a class="nav-link" href="#features">Capabilities</a>
+          <a class="nav-link" href="#team">Team</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+        <div class="hidden md:flex items-center gap-3">
+          <a class="btn btn-ghost" href="#features">Explore capabilities</a>
+          <a class="btn btn-primary" href="#contact">Start Now</a>
+        </div>
+        <button id="menuBtn" aria-controls="mobileNav" aria-expanded="false" class="md:hidden btn btn-ghost" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileNav" class="md:hidden hidden border-t border-black/5 bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-3 space-y-2">
+        <a class="block py-2" href="#approach">Approach</a>
+        <a class="block py-2" href="#features">Capabilities</a>
+        <a class="block py-2" href="#team">Team</a>
+        <a class="block py-2" href="#contact">Contact</a>
+        <div class="pt-2 flex gap-2">
+          <a class="btn btn-ghost w-full" href="#features">Explore capabilities</a>
+          <a class="btn btn-primary w-full" href="#contact">Start Now</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="relative overflow-hidden">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-24 grid lg:grid-cols-12 gap-10 items-center">
+        <div class="lg:col-span-6">
+          <h1 class="text-4xl sm:text-5xl font-bold tracking-tight">Turning AI Risk into AI Value</h1>
+          <p class="mt-4 text-lg text-black/70 max-w-xl">
+            We transform AI risk into AI opportunity by providing evidence for safer and more scalable AI adoption.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a class="btn btn-primary" href="#contact">Start Now</a>
+            <a class="btn btn-ghost" href="#approach">How it works</a>
+          </div>
+          <ul class="mt-6 space-y-2 text-sm text-black/70">
+            <li>• Structure, automation, and transparency for AI assurance</li>
+            <li>• Context-aware risk assessments that are relevant, explainable, and actionable</li>
+          </ul>
+        </div>
+        <div class="lg:col-span-6">
+          <div class="relative rounded-3xl border border-black/10 bg-white p-3 shadow-soft">
+            <picture>
+              <source srcset="assets/feature1.avif" type="image/avif">
+              <img src="assets/logo.png" alt="Verify-AI visual" class="w-full rounded-2xl" loading="eager" />
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approach -->
+    <section id="approach" class="py-16 bg-gradient-to-b from-white to-cyan-50/40 border-t border-black/5">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold">Our Approach</h2>
+        <p class="mt-4 text-black/80 max-w-3xl">Verify-AI is built to bring structure, automation, and transparency to AI assurance. We provide an intelligent, context-aware approach to AI risk assessment, ensuring that every evaluation is relevant, explainable, and actionable. Our mission is to transform AI risk into AI value, helping businesses unlock the full potential of AI while maintaining trust.</p>
+      </div>
+    </section>
+
+    <!-- Capabilities -->
+    <section id="features" class="py-16">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <article class="rounded-3xl border border-black/10 p-6 bg-white shadow-soft">
+            <h3 class="text-lg font-semibold">Automated, Context-Aware Audits</h3>
+            <p class="mt-2 text-sm text-black/70">AI assurance shouldn’t be a guessing game. Verify-AI eliminates manual selection bias by automatically matching risk evaluations to your model's use case, industry, and compliance requirements. Whether assessing an AI system for financial decision-making, healthcare diagnostics, or autonomous operations, our intelligent audit engine selects the most relevant evaluation frameworks—so you get a comprehensive risk profile without manual guesswork.</p>
+            <img class="mt-4 rounded-2xl" src="assets/feature2.avif" alt="Automated audits" loading="lazy" />
+          </article>
+          <article class="rounded-3xl border border-black/10 p-6 bg-white shadow-soft">
+            <h3 class="text-lg font-semibold">Transparent & Principled Process</h3>
+            <p class="mt-2 text-sm text-black/70">We believe in an "open box" approach to AI assurance. Every audit conducted by Verify-AI comes with full transparency—you see which tests were performed, the methodologies used, and why each risk was flagged. No hidden logic, no opaque algorithms making risk decisions. Instead, every assessment is grounded in established AI safety, ethics, and regulatory principles, ensuring that AI assurance is as accountable as the models it evaluates.</p>
+            <img class="mt-4 rounded-2xl" src="assets/feature3.avif" alt="Transparent process" loading="lazy" />
+          </article>
+          <article class="rounded-3xl border border-black/10 p-6 bg-white shadow-soft">
+            <h3 class="text-lg font-semibold">Dynamic Risk Forecasting</h3>
+            <p class="mt-2 text-sm text-black/70">AI risk is not static. Models degrade over time, biases emerge with new data, and vulnerabilities arise as technology evolves. Verify-AI doesn’t just evaluate risk—it anticipates it. Our continuous monitoring and dynamic risk scoring track AI model behavior in production, updating risk profiles as conditions change. With proactive alerts and forward-looking insights, businesses can mitigate risks before they escalate, ensuring long-term AI reliability.</p>
+            <img class="mt-4 rounded-2xl" src="assets/feature4.avif" alt="Dynamic risk forecasting" loading="lazy" />
+          </article>
+          <article class="rounded-3xl border border-black/10 p-6 bg-white shadow-soft">
+            <h3 class="text-lg font-semibold">Complete Audit Trail</h3>
+            <p class="mt-2 text-sm text-black/70">Every AI evaluation performed by Verify-AI generates a detailed, time-stamped audit log. From dataset integrity checks to model behavior analysis, every finding is documented, providing an immutable record for regulatory reporting and internal governance. This audit trail proves that your AI models have undergone rigorous validation—helping organizations demonstrate compliance with the EU AI Act, NIST AI RMF, ISO 42001, and other global standards.</p>
+          </article>
+          <article class="rounded-3xl border border-black/10 p-6 bg-white shadow-soft">
+            <h3 class="text-lg font-semibold">Clear Justifications & Guidance</h3>
+            <p class="mt-2 text-sm text-black/70">AI risk assessments are only valuable if they lead to actionable improvements. Verify-AI not only identifies risks—it explains why they were flagged and how to fix them. Every audit report includes plain-language justifications, contextual insights, and remediation guidance. Instead of just presenting risks, we provide clear, strategic recommendations to help organizations improve AI fairness, robustness, and compliance.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="py-16 bg-gradient-to-b from-white to-cyan-50/40 border-t border-black/5">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <h2 class="text-2xl font-bold">The Team</h2>
+        <p class="mt-3 text-black/70 max-w-3xl">At Verify-AI, we bring together a powerhouse team of industry leaders, world-class researchers, and cutting-edge engineers to redefine the future of AI Assurance. Our founders ensure we combine strategic vision with operational excellence. With internationally recognised researchers in mathematics, computer science, and AI development and assurance, we drive innovation with rigorous scientific foundations. Our expertise in privacy and security engineering ensures that we can assess and assure ethical, resilient, and trustworthy AI at scale.</p>
+        <div class="mt-6">
+          <img src="assets/logo.png" alt="Verify-AI" class="h-10 opacity-70">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-16">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-10">
+        <div>
+          <h2 class="text-2xl font-bold">Reach Us</h2>
+          <ul class="mt-4 space-y-2 text-black/80">
+            <li><strong>Call:</strong> +1 (555) 123-4567</li>
+            <li><strong>Email:</strong> contact@verifyai.com</li>
+          </ul>
+          <p class="mt-6 text-sm text-black/60">Buttons below are placeholders for your preferred flow.</p>
+          <div class="mt-4 flex flex-wrap gap-3">
+            <a class="btn btn-primary" href="mailto:contact@verifyai.com">Email Us</a>
+            <a class="btn btn-ghost" href="#features">Explore capabilities</a>
+          </div>
+        </div>
+        <div class="rounded-3xl border border-black/10 bg-white p-3 shadow-soft">
+          <picture>
+            <source srcset="assets/feature1.avif" type="image/avif">
+            <img src="assets/logo.png" alt="Verify-AI" class="w-full rounded-2xl" loading="lazy" />
+          </picture>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-black/10 bg-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 flex items-center justify-between">
+      <p class="text-sm text-black/60">© <span id="year"></span> Verify-AI. All rights reserved.</p>
+      <div class="text-sm text-black/60">Frameworks · Compliance · Risk · Trust · Audit</div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileNav = document.getElementById('mobileNav');
+    menuBtn?.addEventListener('click', () => { const expanded = menuBtn.getAttribute('aria-expanded') === 'true'; menuBtn.setAttribute('aria-expanded', String(!expanded)); mobileNav.classList.toggle('hidden'); });
+  </script>
+</body>
+</html>
